@@ -1,0 +1,86 @@
+#С pillow возникли сложности, работа велась с requests
+
+C:\Users\79271\Desktop\exp>pip freeze
+Pillow==9.0.1
+
+C:\Users\79271\Desktop\exp>pip install requests
+Collecting requests
+  Downloading requests-2.27.1-py2.py3-none-any.whl (63 kB)
+     |████████████████████████████████| 63 kB 1.6 MB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+     |████████████████████████████████| 149 kB 2.2 MB/s
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.8-py2.py3-none-any.whl (138 kB)
+     |████████████████████████████████| 138 kB 6.4 MB/s
+Collecting idna<4,>=2.5
+  Downloading idna-3.3-py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 3.8 MB/s
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.11-py3-none-any.whl (39 kB)
+Installing collected packages: urllib3, idna, charset-normalizer, certifi, requests
+Successfully installed certifi-2021.10.8 charset-normalizer-2.0.11 idna-3.3 requests-2.27.1 urllib3-1.26.8
+
+C:\Users\79271\Desktop\exp>pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.11
+idna==3.3
+Pillow==9.0.1
+requests==2.27.1
+urllib3==1.26.8
+
+C:\Users\79271\Desktop\exp>python -m venv virt_exp
+
+C:\Users\79271\Desktop\exp>dir
+ Том в устройстве C не имеет метки.
+ Серийный номер тома: 280D-519B
+
+ Содержимое папки C:\Users\79271\Desktop\exp
+
+10/02/2022  18:13    <DIR>          .
+10/02/2022  18:13    <DIR>          ..
+10/02/2022  18:13    <DIR>          virt_exp
+               0 файлов              0 байт
+               3 папок  34,462,801,920 байт свободно
+
+C:\Users\79271\Desktop\exp>"virt_exp/Scripts/activate.bat"
+
+
+(virt_exp) C:\Users\79271\Desktop\exp>pip install requests==2.24
+Collecting requests==2.24
+  Downloading requests-2.24.0-py2.py3-none-any.whl (61 kB)
+     |████████████████████████████████| 61 kB 2.3 MB/s
+Collecting certifi>=2017.4.17
+  Using cached certifi-2021.10.8-py2.py3-none-any.whl (149 kB)
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+     |████████████████████████████████| 58 kB 3.8 MB/s
+Collecting urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1
+  Downloading urllib3-1.25.11-py2.py3-none-any.whl (127 kB)
+     |████████████████████████████████| 127 kB ...
+Collecting chardet<4,>=3.0.2
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+     |████████████████████████████████| 133 kB 6.8 MB/s
+Installing collected packages: urllib3, idna, chardet, certifi, requests
+Successfully installed certifi-2021.10.8 chardet-3.0.4 idna-2.10 requests-2.24.0 urllib3-1.25.11
+WARNING: You are using pip version 21.2.4; however, version 22.0.3 is available.
+You should consider upgrading via the 'C:\Users\79271\Desktop\exp\virt_exp\Scripts\python.exe -m pip install --upgrade pip' command.
+
+(virt_exp) C:\Users\79271\Desktop\exp>pip freeze
+certifi==2021.10.8
+chardet==3.0.4
+idna==2.10
+requests==2.24.0
+urllib3==1.25.11
+
+(virt_exp) C:\Users\79271\Desktop\exp>deactivate
+
+C:\Users\79271\Desktop\exp>pip freeze
+certifi==2021.10.8
+charset-normalizer==2.0.11
+idna==3.3
+Pillow==9.0.1
+requests==2.27.1
+urllib3==1.26.8
+
+
